@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="konteyner">
+        <div class="trafik-lambasi">
+            <div class="daire"></div>
+            <div class="daire"></div>
+            <div class="daire"></div>
+        </div>
+
+        <div>
+            <div class="dikdortgen kirmizi" onclick="renkDegistir(this, 'kirmizi')">
+                <p>Kırmızı</p>
+            </div>
+            <div class="dikdortgen sari" onclick="renkDegistir(this, 'sari')">
+                <p>Sarı</p>
+            </div>
+            <div class="dikdortgen yesil" onclick="renkDegistir(this, 'yesil')">
+                <p>Yeşil</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="reset-buton" onclick="sayfaSifirla()">Reset</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
